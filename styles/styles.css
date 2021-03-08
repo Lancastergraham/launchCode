@@ -1,0 +1,88 @@
+body {
+    background-color: lightcyan;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav {
+    background-image: url('/resources/images/Worth-a-shot.jpg');
+    height: auto;
+    background-position: center;
+    /* background-size: contain; */
+}
+
+footer {
+    border-top: 1px dotted black;
+    font-size:small
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.shrink-img {
+    width: 25%;
+    height: 25%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.float-container {
+
+    padding: 2px;
+ 
+    overflow: auto;
+
+}
+
+.float-child-left.clear {
+    width: 44.5%;
+    float: left;
+    padding: 10px;
+
+    clear: left;
+
+}
+
+.float-child-right.clear {
+    width: 45%;
+    float: right;
+    padding: 10px;
+
+    clear: right;
+}
+
+.kill-float {
+    float: none;
+}
+
+#notCheckingOfBoxes1 {
+    padding: 20px;
+    color: firebrick;
+    border-top: 3px solid black;
+    text-align: center;
+
+}
+
+#notCheckingOfBoxes2 {
+    padding: 20px;
+    color: firebrick;
+    border-bottom: 3px solid black;
+    text-align: center;
+
+}
